@@ -1,0 +1,144 @@
+.navbar-div{
+    width:25%;
+    height:100%;
+    position:fixed;
+    background-color: black;
+    /* display: inline; */
+}
+
+.prof-pic{
+    padding-top:20px;
+    margin:auto;
+    width:80%;
+}
+
+.prof-pic img{
+    width:100%;
+    height:100%;
+    background-color: black;
+    border-radius:50%;
+}
+
+.name{
+    width:65%;
+    margin:auto;
+}
+
+.name h1{
+    text-align:center;
+}
+
+.designation{
+    text-align:center;
+    width:65%;
+    margin:auto;
+    font-style:italic;
+}
+
+.navbar-list{
+    list-style-type:none;
+}
+
+.navbar-list-item{
+    text-decoration:none;
+    color: grey;
+    font-size:15px;
+}
+
+.navbar-list li{
+    margin-top:25px;
+
+}
+
+.navbar-list-item:hover{
+    .icon{
+        color:blue;
+    }
+    .nav-text{
+        color:white;
+    }
+}
+
+
+.icon{
+    display:inline;
+    padding:5px;
+}
+
+.nav-text{
+    display:inline;
+}
+
+.main-div{
+    margin-left:25%;
+    width:75%;
+}
+
+.main-div h1{
+    /* padding-left:5%; */
+    color:blue;
+}
+
+.main-div hr{
+    /* margin-left:5%; */
+    width:10%;
+    border-width:5px;
+    color:blue;
+    fill-opacity: 1;
+}
+
+.section{
+    padding: 10%;
+    height:100%;
+}
+
+.section:nth-child(2n){
+    background-color: rgb(166, 215, 223);
+}
+
+.list-arrow{
+    display:inline;
+    color:blue;
+    margin-right:5px;
+}
+
+.head{
+    display:inline;
+    font-weight:bold;
+}
+
+.about{
+    width:80%;
+}
+
+.project-head{
+    display:inline;
+    color:blue;
+    font-weight:bold;
+    
+}
+
+.project-list{
+    list-style-type:none;
+}
+
+.bold-italic{
+    font-weight:bold;
+    font-style:italic;
+    display:inline;
+}
+
+.social-div{
+    width:40%;
+    margin:auto;
+}
+
+.social{
+    font-size:36px;
+    color:grey;
+}
+
+.social:hover{
+    color:white;
+}
+

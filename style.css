@@ -6,6 +6,15 @@
     /* display: inline; */
 }
 
+@media only screen and (max-width: 768px){
+    .navbar-div{
+        width:40%;
+    }
+    .navbar-list{
+        padding-left:0px;
+    }
+}
+
 .prof-pic{
     padding-top:20px;
     margin:auto;

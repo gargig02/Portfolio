@@ -108,7 +108,7 @@
 .list-arrow{
     display:inline;
     color:blue;
-    margin-right:5px;
+    padding-right:5px;
 }
 
 .head{
@@ -125,6 +125,14 @@
     color:blue;
     font-weight:bold;
     
+}
+
+.proj-link{
+    display:inline;
+    text-decoration:underline;
+    font-style:italic;
+    position:relative;
+    float:right;
 }
 
 .project-list{
